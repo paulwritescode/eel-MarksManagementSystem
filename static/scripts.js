@@ -76,3 +76,42 @@ function closeCourse(dropdownId) {
   const dropdownContent = document.getElementById(dropdownId);
   dropdownContent.classList.remove("show-dropdown");
 }
+
+// dummy chard data
+function createPassingStudentsPieChart() {
+  const ctx = document.getElementById("pieChart").getContext("2d");
+
+  const data = {
+    labels: ["Passing Students", "Remaining Students"],
+    datasets: [
+      {
+        data: [100, 50], // Values for the chart (100 out of 150)
+        backgroundColor: [
+          "rgba(0, 255, 255, 0.6)", // Cyan color for passing students
+          "rgba(192, 192, 192, 0.6)", // Light gray color for remaining students
+        ],
+        borderColor: ["rgba(0, 255, 255, 1)", "rgba(192, 192, 192, 1)"],
+        borderWidth: 1,
+      },
+    ],
+  };
+
+  const config = {
+    type: "pie",
+    data: data,
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: "top",
+        },
+        title: {
+          display: true,
+          text: "Passing Students Pie Chart",
+        },
+      },
+    },
+  };
+
+  const myChart = new Chart(ctx, config);
+}

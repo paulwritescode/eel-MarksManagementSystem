@@ -62,7 +62,7 @@ a {
   padding: 10px;
 }
 .semester {
-  background-color: rgb(235, 242, 255);
+  /* background-color: rgb(235, 242, 255); */
   border: 1px solid black;
   border-radius: 3px;
   display: flex;
