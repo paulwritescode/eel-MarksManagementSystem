@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/static/style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <title>Melick Ognee International School</title>
 </head>
 <body>
@@ -20,14 +22,16 @@
 
         <!-- sidebar -->
         <div class="sidebar">
-            <div>Dashboard</div>
-            <div>Enrollments</div>
-            <div>Marks</div>
-            <div>Results</div>
+            <a class="active" href="index.html">Dashboard</a>
+            <a href="">Registration</a>
+            <a href="enrollment.html">Enrollments</a>
+            <a href="">Marks</a>
+            <a href="">Results</a>
         </div>
 
-        <!-- card or panes -->
-        <div class="panes">
+       <div class="rightofsidebar">
+         <!-- card or panes -->
+         <div class="panes">
             <!-- courses component -->
             <div class="panesdivisions" > <span>Courses</span>
                 <div class="componenthead">
@@ -191,6 +195,18 @@
                 </div>
             </div>
         </div>
+        <!-- quick access -->
+        <div class="shortcut">
+            <div class="panesdivisions" > <span>Quick Access</span>
+                <div class="shortcutitems">
+                    <div class="link">
+                        <a href="/enrollment.html">Special Exams</a>
+                        <a href="/enrollment.html">Supplementary Exams</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
     </div>
 
 </body>
