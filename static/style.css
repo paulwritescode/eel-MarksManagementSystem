@@ -70,9 +70,9 @@ a {
 }
 
 /* panes-divisions heading font and styling */
-.panesdivisions span {
+span {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 /* right of sidebar */
@@ -101,7 +101,6 @@ a {
 /* end of Index page */
 
 /* Start of Enrollments page */
-
 .enrolldiv {
   display: flex;
   flex-direction: column;

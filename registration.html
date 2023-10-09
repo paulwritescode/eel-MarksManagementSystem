@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Melick Ognee International School</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <div class="navbar">
+        <a href="">Home</a>
+        <a href="">Services</a>
+        <a href="">Resources</a>
+        <a href="">Portal</a>
+    </div>
+
+    <!-- body contnet -->
+    <div class="container">
+
+        <!-- sidebar -->
+        <div class="sidebar">
+            <a href="index.html">Dashboard</a>
+            <a class="active" href="/registration.html">Registration</a>
+            <a href="enrollment.html">Enrollments</a>
+            <a href="/database.html">Database</a>
+            <a href="">Marks</a>
+            <a href="">Results</a>
+        </div>
+
+
+        <!-- small navigation -->
+        <div class="enrolldiv">
+            <div class="smallnav">Register Courses and Lecturers
+              <div class="buttonlinks">
+                <button onclick="registerCourse()">Register Courses</button>
+                <button onclick="registerLecturer()">Register Lecturers</button>
+              </div>
+              <div id="registercourse" class="dropdown-content">
+                <p>add new course</p>
+                <button onclick="closeCourse('registercourse')">Close</button>
+
+              </div>
+              <div id="registerlecturer" class="dropdown-content">
+                <p>add Lecturer</p>
+                <button onclick="closeLecturer('registerlecturer')">Close</button>
+
+              </div>
+            </div>
+
+
+          </div>
+
+
+          <script src="script.js"></script>
+
+<script src="static/scripts.js"></script>
+
+    </div>
+
+</body>
+</html>
