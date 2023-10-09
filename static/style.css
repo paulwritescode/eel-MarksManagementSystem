@@ -2,12 +2,15 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: rgb(234, 234, 234);
+}
 /*navbar */
 .navbar {
   display: flex;
   gap: 10px;
   padding: 10px;
-  background-color: rgb(0, 255, 166);
+  background-color: white;
 }
 .navbar a {
   text-decoration: none;
@@ -21,20 +24,23 @@
 
 /* sidebar */
 .sidebar {
-  background-color: aqua;
+  background-color: white;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
 }
 /* panes */
 .panes {
-  background-color: rgb(255, 79, 205);
+  /* background-color: rgb(255, 79, 205); */
   display: flex;
   gap: 9px;
   flex-direction: column;
 }
 /* component heads */
 .componenthead {
-  background-color: greenyellow;
-  padding: 10px;
+  /* background-color: white; */
+  /* padding: 10px; */
   display: flex;
   gap: 7px;
 }
@@ -42,12 +48,21 @@
 .componentheaddetails {
   display: flex;
   gap: 9px;
-  background-color: rgb(0, 102, 255);
+  border-radius: 3px;
+  background-color: white;
   flex-direction: column;
   padding: 10px;
 }
 .semester {
-  background-color: yellow;
+  background-color: rgb(235, 242, 255);
+  border: 1px solid black;
+  border-radius: 3px;
   display: flex;
   padding: 7px;
+}
+
+/* panes-divisions heading font and styling */
+.panesdivisions span {
+  font-size: 20px;
+  font-weight: 700;
 }
