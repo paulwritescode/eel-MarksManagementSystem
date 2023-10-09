@@ -84,18 +84,19 @@ span {
 /* quick access */
 .shortcut {
   padding: 10px;
-  height: 100vh;
+  /* height: 100vh; */
 }
-.shortcutitems {
+.shortcutitems a {
   background-color: white;
-  height: 100vh;
+  /* height: 100vh; */
   padding: 10px;
-  margin-top: 3px;
+  /* margin-top: 3px; */
+  border-radius: 9px;
 }
 .link {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 5px;
 }
 
 /* end of Index page */

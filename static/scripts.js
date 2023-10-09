@@ -82,7 +82,7 @@ function createPassingStudentsPieChart() {
   const ctx = document.getElementById("pieChart").getContext("2d");
 
   const data = {
-    labels: ["Passing Students", "Remaining Students"],
+    labels: ["Pass Students", "Fail Students"],
     datasets: [
       {
         data: [100, 50], // Values for the chart (100 out of 150)
