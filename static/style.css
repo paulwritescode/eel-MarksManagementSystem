@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: rgb(234, 238, 248);
+  background-color: rgb(232, 230, 237);
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -81,8 +81,9 @@ a {
   padding: 10px;
 }
 .semester {
-  background-color: rgb(235, 255, 248);
-  border: 1px solid black;
+  /* background-color: rgb(255, 255, 255); */
+  border: 1px solid white;
+  color: white;
   border-radius: 3px;
   display: flex;
   padding: 7px;
