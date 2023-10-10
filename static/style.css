@@ -10,11 +10,12 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin: 0 auto;
 }
 /* active  */
 .active {
   /* text-decoration: underline; */
-  background-color: rgb(5, 59, 195);
+  background-color: rgb(89, 27, 191);
   color: white;
   /* padding: 5px 20px 5px 20px; */
   border-radius: 5px;
