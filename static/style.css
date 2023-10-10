@@ -6,11 +6,18 @@
 }
 
 body {
-  background-color: rgb(245, 248, 255);
+  background-color: rgb(234, 238, 248);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 /* active  */
 .active {
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  background-color: rgb(5, 59, 195);
+  color: white;
+  /* padding: 5px 20px 5px 20px; */
+  border-radius: 5px;
 }
 /*navbar */
 .navbar {
@@ -21,6 +28,7 @@ body {
 }
 a {
   text-decoration: none;
+  color: rgb(103, 103, 103);
 }
 /* container */
 .container {
@@ -32,11 +40,21 @@ a {
 
 /* sidebar */
 .sidebar {
-  background-color: white;
+  /* background-color: white; */
   padding: 10px;
   display: flex;
   flex-direction: column;
   gap: 9px;
+  width: inherit;
+  color: gray;
+}
+
+.sidebar a {
+  display: flex;
+  gap: 3px;
+  padding: 5px 20px 5px 20px;
+  align-items: center;
+  /* justify-content: space-between; */
 }
 /* panes */
 .panes {
@@ -83,7 +101,7 @@ ion-icon {
 }
 .panesdivisions {
   display: flex;
-  gap: 3px;
+  gap: 4px;
   flex-direction: column;
 }
 /* right of sidebar */
@@ -156,4 +174,26 @@ button:hover {
   background-color: rgb(98, 153, 255);
   cursor: pointer;
   color: white;
+}
+
+/* adding colors to the dashboard components */
+/* student component */
+#studentscomponent .componentheaddetails {
+  background: linear-gradient(0deg, rgb(195, 43, 35), rgb(253, 119, 116));
+}
+
+/* formats the header section of all components */
+.header {
+  color: white;
+  font-weight: 600;
+}
+
+/* Courses Component */
+#coursecomponent .componentheaddetails {
+  background: linear-gradient(0deg, rgb(45, 45, 55), rgb(129, 128, 141));
+}
+
+/* lecturers compnent */
+#lecturecomponent .componentheaddetails {
+  background: linear-gradient(0deg, rgb(89, 27, 191), rgb(94, 110, 249));
 }
