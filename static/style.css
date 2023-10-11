@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: rgb(230, 235, 240);
+  background-color: rgb(235, 239, 240);
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -96,7 +96,7 @@ span {
   display: flex;
   gap: 4px;
   align-items: center;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 600;
 }
 ion-icon {
@@ -109,7 +109,7 @@ ion-icon {
   flex-direction: column;
   padding: 12px;
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.346);
+  background-color: rgba(255, 255, 255, 0.522);
 }
 /* right of sidebar */
 .rightofsidebar {
@@ -213,3 +213,16 @@ button:hover {
   border-radius: 5px;
   padding: 5px 0px 0px 0px;
 } */
+
+
+/* dashboard components*/
+.top-component, .middle-component, .lower-component{
+  display: flex;
+  gap: 10px;
+}
+/* student component */
+#student-component-head{
+  display: flex;
+  flex-direction: column;
+
+}
