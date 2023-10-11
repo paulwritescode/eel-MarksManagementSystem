@@ -45,6 +45,14 @@ a:hover{
   height: 100vh;
 }
 
+/* Mother sidebar */
+.mother-sidebar{
+  display: flex;
+  flex-direction: column;
+  /* justify-content:center; */
+  gap: 10px;
+}
+
 /* sidebar */
 .sidebar {
   background-color: rgba(255, 255, 255, 0.522);
@@ -65,7 +73,7 @@ a:hover{
 }
 /* panes */
 .panes {
-  /* background-color: rgb(255, 79, 205); */
+  /* background-color:rgb(186, 189, 193); */
   display: flex;
   gap: 9px;
   flex-direction: column;
@@ -91,7 +99,7 @@ a:hover{
 .semester {
   background-color:rgba(209, 235, 255, 0.226);
   /* border: 1px solid rgb(0, 0, 0); */
-  /* color: rgb(10, 222, 77); */
+  /* color: rgb(31, 255, 98); */
   border-radius: 10px;
   display: flex;
   padding: 7px;
@@ -127,11 +135,13 @@ ion-icon {
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.522);
 }
+
+
 /* right of sidebar */
 .rightofsidebar {
   display: flex;
   gap: 10px;
-  /* justify-content: space-between; */
+  /* justify-content:; */
   width: 100%;
 }
 /* quick access */
@@ -246,16 +256,30 @@ button:hover {
 }
 /* student component */
 #student-component-head{
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   flex-direction: column;
 
 }
+
+.top-top-component{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+
+
+
+
+
+
 
 /* Good Color */
 rgb(17, 120, 204)
 rgb(10, 222, 77)
 /* Good Color */
 
-
-/* styling all Numbers displayed */
 

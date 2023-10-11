@@ -78,19 +78,21 @@ function closeCourse(dropdownId) {
 }
 
 // dummy chard data
+
 function createPassingStudentsPieChart() {
   const ctx = document.getElementById("pieChart").getContext("2d");
 
   const data = {
-    labels: ["Pass", "Others"],
+    labels: ["Pass", "Fail", "Supplementary", "Special"],
     datasets: [
       {
-        data: [100, 50], // Values for the chart (100 out of 150)
+        data: [100, 20, 10, 5], // Values for the chart (100 out of 150)
         backgroundColor: [
-          " rgb(31, 255, 98)", // Cyan color for passing students
+          "rgb(28, 149, 248)", // Cyan color for passing students
+          "rgb(0, 214, 79)",
+          "rgb(253, 119, 116)",
           "rgb(186, 189, 193)", // Light gray color for remaining students
         ],
-        borderColor: ["rgb(31, 255, 98)", "rgb(186, 189, 193)"],
         borderWidth: 1,
       },
     ],
