@@ -87,10 +87,10 @@ function createPassingStudentsPieChart() {
       {
         data: [100, 50], // Values for the chart (100 out of 150)
         backgroundColor: [
-          " rgb(10, 222, 77)", // Cyan color for passing students
-          "rgba(192, 192, 192, 0.6)", // Light gray color for remaining students
+          " rgb(31, 255, 98)", // Cyan color for passing students
+          "rgb(186, 189, 193)", // Light gray color for remaining students
         ],
-        borderColor: [" rgb(10, 222, 77)", "rgba(192, 192, 192, 1)"],
+        borderColor: ["rgb(31, 255, 98)", "rgb(186, 189, 193)"],
         borderWidth: 1,
       },
     ],
