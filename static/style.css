@@ -102,6 +102,7 @@ a:hover{
   /* color: rgb(31, 255, 98); */
   border-radius: 10px;
   display: flex;
+  /* flex-direction: column; */
   padding: 7px;
   align-items: center;
   justify-content: space-evenly;
@@ -145,10 +146,7 @@ ion-icon {
   width: 100%;
 }
 /* quick access */
-.shortcut {
-  /* padding: 10px; */
-  /* height: 100vh; */
-}
+
 .shortcutitems a {
   background-color: white;
   /* height: 100vh; */
@@ -177,14 +175,16 @@ ion-icon {
 /* Initially hide the dropdown content */
 .dropdown-content {
   display: none;
-  padding: 10px;
-  background-color: #f9f9f9;
+  /* gap: 10px; */
+  /* padding: 10px; */
+  /* background-color: #f9f9f9; */
   border-radius: 3px;
+  margin-top: 10px;
 }
 
 /* Display the dropdown content when the button is clicked */
 .show-dropdown {
-  display: block;
+  display: inline-flex;
 }
 
 /* style the background of buttons */
@@ -211,42 +211,12 @@ button:hover {
   color: white;
 }
 
-/* adding colors to the dashboard components */
-/* student component */
-#studentscomponent .componentheaddetails {
-  /* background: linear-gradient(0deg, rgb(195, 43, 35), rgb(253, 119, 116)); */
-  /* background-color: rgb(17, 120, 204); */
-
-}
 
 /* formats the header section of all components */
 .header {
   /* color: white; */
   font-weight: 600;
 }
-
-/* Courses Component */
-#coursecomponent .componentheaddetails {
-  /* background: linear-gradient(0deg, rgb(0, 127, 95), rgb(4, 231, 174)); */
-  /* background-color: rgb(17, 120, 204); */
-
-}
-
-/* lecturers compnent */
-#lecturecomponent .componentheaddetails {
-
-  /* background: linear-gradient(0deg, rgb(17, 120, 204), rgb(0, 80, 228)); */
-  /* background-color: rgb(17, 120, 204); */
-}
-
-
-
-/* styling the graph */
-/* #graphcomponent{
-  background-color: rgb(205, 146, 50);
-  border-radius: 5px;
-  padding: 5px 0px 0px 0px;
-} */
 
 
 /* dashboard components*/
@@ -271,15 +241,47 @@ button:hover {
 
 
 
+/* Form formatting */
+
+.form-division {
+  display:flex ;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.522);
+}
+
+
+input {
+
+  /* width: 100%; */
+
+}
+
+.form-component-head-details {
+  display: flex;
+  gap: 9px;
+  border-radius: 9px;
+  flex-direction: column;
+
+}
+
+.form-buttons{
+  display: flex;
+  justify-content: space-between;
+}
 
 
 
 
 
 
+
+{
 /* Good Color */
 rgb(17, 120, 204)
 rgb(10, 222, 77)
 /* Good Color */
-
+}
 

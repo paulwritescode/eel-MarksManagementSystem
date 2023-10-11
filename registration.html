@@ -41,8 +41,51 @@
                 <button onclick="registerLecturer()">Register Lecturers</button>
               </div>
               <div id="registercourse" class="dropdown-content">
-                <p>add new course</p>
-                <button onclick="closeCourse('registercourse')">Close</button>
+                  <!-- courses component -->
+                <div class="form-division" > <span>Register Courses</span>
+
+                      <div class="form-component-head-details">
+                          <form class="form-template">
+
+                              <label for="text">Course Name</label>
+                              <input type="text"> <br>
+
+
+                              <label for="text">Course Id</label>
+                              <input type="text"> <br>
+
+
+                              <label for="pass">Choose Year</label> <br>
+                              <input type="radio" id="first-year" name="option" value="pass">First Year<br>
+                              <input type="radio" id="second-year" name="option" value="fail">Second Year<br>
+                              <input type="radio" id="third-year" name="option" value="fail">Third Year<br>
+                              <input type="radio" id="fourth-year" name="option" value="fail">Fourth Year<br>
+
+                              <label for="pass">Choose Year</label> <br>
+                              <input type="radio" id="first-semester" name="option" value="pass">First Semester<br>
+                              <input type="radio" id="second-semester" name="option" value="fail">Second Semester<br>
+
+
+
+
+
+
+                          </form>
+
+
+                  </div>
+                  <div class="form-buttons">
+                    <button>Save</button>
+                    <button onclick="closeCourse('registercourse')">Close</button>
+                  </div>
+              </div>
+
+
+
+
+
+
+
 
               </div>
               <div id="registerlecturer" class="dropdown-content">
