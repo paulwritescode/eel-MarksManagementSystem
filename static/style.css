@@ -16,7 +16,7 @@ body {
 /* active  */
 .active {
   /* text-decoration: underline; */
-  background-color: rgb(89, 27, 191);
+  background-color: rgb(17, 120, 204);
   color: white;
   /* padding: 5px 20px 5px 20px; */
   border-radius: 5px;
@@ -42,7 +42,7 @@ a {
 
 /* sidebar */
 .sidebar {
-  /* background-color: white; */
+  background-color: rgba(255, 255, 255, 0.522);
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -69,7 +69,7 @@ a {
 .componenthead {
   /* background-color: white; */
   border-radius: 10px;
-  padding: 10px;
+  /* padding: 10px; */
   display: flex;
   gap: 7px;
 }
@@ -78,7 +78,7 @@ a {
   display: flex;
   gap: 9px;
   border-radius: 9px;
-  background-color: rgba(156, 170, 49, 0.493);
+  background-color: rgb(255, 255, 255);
   flex-direction: column;
   padding: 10px;
 }
@@ -227,3 +227,7 @@ button:hover {
   flex-direction: column;
 
 }
+
+/* Good Color */
+rgb(17, 120, 204)
+/* Good Color */

@@ -82,15 +82,15 @@ function createPassingStudentsPieChart() {
   const ctx = document.getElementById("pieChart").getContext("2d");
 
   const data = {
-    labels: ["Pass Students", "Fail Students"],
+    labels: ["Pass", "Others"],
     datasets: [
       {
         data: [100, 50], // Values for the chart (100 out of 150)
         backgroundColor: [
-          "rgba(0, 255, 255, 0.6)", // Cyan color for passing students
+          " rgb(205, 140, 50)", // Cyan color for passing students
           "rgba(192, 192, 192, 0.6)", // Light gray color for remaining students
         ],
-        borderColor: ["rgba(0, 255, 255, 1)", "rgba(192, 192, 192, 1)"],
+        borderColor: [" rgb(205, 146, 50)", "rgba(192, 192, 192, 1)"],
         borderWidth: 1,
       },
     ],
@@ -107,7 +107,7 @@ function createPassingStudentsPieChart() {
         },
         title: {
           display: true,
-          text: "Passing Students Pie Chart",
+          text: "Pass List",
         },
       },
     },
