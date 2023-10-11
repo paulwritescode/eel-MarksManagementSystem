@@ -3,10 +3,11 @@
 * {
   box-sizing: border-box;
   font-family: Montserrat;
+  font-size: 12px;
 }
 
 body {
-  background-color: rgb(232, 230, 237);
+  background-color: rgb(230, 235, 240);
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -67,7 +68,8 @@ a {
 /* component heads */
 .componenthead {
   /* background-color: white; */
-  /* padding: 10px; */
+  border-radius: 10px;
+  padding: 10px;
   display: flex;
   gap: 7px;
 }
@@ -76,7 +78,7 @@ a {
   display: flex;
   gap: 9px;
   border-radius: 9px;
-  background-color: white;
+  background-color: rgba(156, 170, 49, 0.493);
   flex-direction: column;
   padding: 10px;
 }
@@ -105,6 +107,9 @@ ion-icon {
   display: flex;
   gap: 4px;
   flex-direction: column;
+  padding: 12px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.346);
 }
 /* right of sidebar */
 .rightofsidebar {
@@ -192,10 +197,19 @@ button:hover {
 
 /* Courses Component */
 #coursecomponent .componentheaddetails {
-  background: linear-gradient(0deg, rgb(45, 45, 55), rgb(129, 128, 141));
+  background: linear-gradient(0deg, rgb(0, 127, 95), rgb(4, 231, 174));
 }
 
 /* lecturers compnent */
 #lecturecomponent .componentheaddetails {
   background: linear-gradient(0deg, rgb(89, 27, 191), rgb(94, 110, 249));
 }
+
+
+
+/* styling the graph */
+/* #graphcomponent{
+  background-color: rgb(205, 146, 50);
+  border-radius: 5px;
+  padding: 5px 0px 0px 0px;
+} */
