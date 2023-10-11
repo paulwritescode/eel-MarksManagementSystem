@@ -3,7 +3,7 @@
 * {
   box-sizing: border-box;
   font-family: Montserrat;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 body {
@@ -30,8 +30,13 @@ body {
 }
 a {
   text-decoration: none;
-  color: rgb(103, 103, 103);
+  color: rgb(96, 96, 96);
 }
+
+a:hover{
+  color: rgb(10, 222, 77);
+}
+
 /* container */
 .container {
   display: flex;
@@ -81,14 +86,18 @@ a {
   background-color: rgb(255, 255, 255);
   flex-direction: column;
   padding: 10px;
+  /* width: 150px; */
 }
 .semester {
-  /* background-color: rgb(255, 255, 255); */
-  border: 1px solid white;
-  color: rgb(255, 255, 255);
-  border-radius: 3px;
+  background-color:rgba(209, 235, 255, 0.226);
+  /* border: 1px solid rgb(0, 0, 0); */
+  /* color: rgb(10, 222, 77); */
+  border-radius: 10px;
   display: flex;
   padding: 7px;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
 }
 
 /* panes-divisions heading font and styling */
@@ -96,9 +105,16 @@ span {
   display: flex;
   gap: 4px;
   align-items: center;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 600;
+  color:rgb(17, 120, 204);
 }
+.total-number{
+  color:rgb(0, 214, 79);
+  font-weight: 700;
+  font-size: 30px;
+}
+
 ion-icon {
   font-size: 23px;
   font-weight: 600;
@@ -174,12 +190,13 @@ ion-icon {
 /* style button */
 button {
   border: none;
-  background-color: rgb(192, 214, 255);
-  padding: 6px;
+  background-color: rgb(52, 162, 251);
+  color: white;
+  padding: 7px;
   border-radius: 3px;
 }
 button:hover {
-  background-color: rgb(98, 153, 255);
+  background-color: rgb(17, 120, 204);
   cursor: pointer;
   color: white;
 }
@@ -187,23 +204,29 @@ button:hover {
 /* adding colors to the dashboard components */
 /* student component */
 #studentscomponent .componentheaddetails {
-  background: linear-gradient(0deg, rgb(195, 43, 35), rgb(253, 119, 116));
+  /* background: linear-gradient(0deg, rgb(195, 43, 35), rgb(253, 119, 116)); */
+  /* background-color: rgb(17, 120, 204); */
+
 }
 
 /* formats the header section of all components */
 .header {
-  color: white;
+  /* color: white; */
   font-weight: 600;
 }
 
 /* Courses Component */
 #coursecomponent .componentheaddetails {
-  background: linear-gradient(0deg, rgb(0, 127, 95), rgb(4, 231, 174));
+  /* background: linear-gradient(0deg, rgb(0, 127, 95), rgb(4, 231, 174)); */
+  /* background-color: rgb(17, 120, 204); */
+
 }
 
 /* lecturers compnent */
 #lecturecomponent .componentheaddetails {
-  background: linear-gradient(0deg, rgb(89, 27, 191), rgb(94, 110, 249));
+
+  /* background: linear-gradient(0deg, rgb(17, 120, 204), rgb(0, 80, 228)); */
+  /* background-color: rgb(17, 120, 204); */
 }
 
 
@@ -230,4 +253,9 @@ button:hover {
 
 /* Good Color */
 rgb(17, 120, 204)
+rgb(10, 222, 77)
 /* Good Color */
+
+
+/* styling all Numbers displayed */
+
