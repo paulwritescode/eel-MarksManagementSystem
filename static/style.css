@@ -7,9 +7,10 @@
 }
 
 body {
-  background-color: rgb(235, 236, 236);
+  background-color: rgb(194, 211, 219);
   display: flex;
   flex-direction: column;
+
   gap: 10px;
   margin: 0 auto;
 }
@@ -34,15 +35,27 @@ a {
 }
 
 a:hover{
-  color: rgb(10, 222, 77);
+  background-color:  rgba(255, 255, 255, 0.522);
+  color: rgb(17, 120, 204);
 }
 
 /* container */
 .container {
   display: flex;
-  gap: 10px;
-  padding: 3px;
+  gap: 14px;
+  /* align-items: center; */
+  /* padding: 3px; */
   height: 100vh;
+  padding: 10px;
+
+}
+.weka{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+
 }
 
 /* Mother sidebar */
@@ -50,17 +63,17 @@ a:hover{
   display: flex;
   flex-direction: column;
   /* justify-content:center; */
-  gap: 10px;
+  /* gap: 10px; */
 }
 
 /* sidebar */
 .sidebar {
-  background-color: rgba(255, 255, 255, 0.522);
+  /* background-color: rgba(255, 255, 255, 0.522); */
   padding: 10px;
   display: flex;
   flex-direction: column;
   gap: 9px;
-  width: inherit;
+  /* width: inherit; */
   color: gray;
 }
 
@@ -141,9 +154,10 @@ ion-icon {
 /* right of sidebar */
 .rightofsidebar {
   display: flex;
-  gap: 10px;
-  /* justify-content:; */
-  width: 100%;
+  /* gap: 300px; */
+  /* justify-content:space-between; */
+  /* width: 100%; */
+  /* padding: 0px 30px 0px 30px; */
 }
 /* quick access */
 
